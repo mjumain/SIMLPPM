@@ -211,9 +211,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Helpers' => \App\Helper\Helpers::class,
-        'Tanggal' => \App\Helper\Tanggal::class,
-        'Uang' => \App\Helper\Uang::class,
+        'Helpers' => App\Helper\Helpers::class,
+        'Tanggal' => App\Helper\Tanggal::class,
+        'Uang' => App\Helper\Uang::class,
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
 
     ],
