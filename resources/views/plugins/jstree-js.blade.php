@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{asset('js/jstree.min.js')}}"></script>

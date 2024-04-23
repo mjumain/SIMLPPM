@@ -1,0 +1,49 @@
+.login100-form-btn{
+	background-color: #f93;
+	color: #fff;
+	border-radius: 0px;
+}.login100-form-title{
+	border-bottom: 3px solid #f93;
+	padding: 25px 15px 25px 15px;
+}
+.navbar-default{
+    border-bottom: 5px solid #f93;
+    background-color: #032535;
+    color: #fff;
+}.navbar-default .navbar-brand{
+    color: #fff;
+}.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a{
+    color: #fff;
+}.container-fluid{
+    padding-left: 40px;
+    padding-right: 35px;
+}.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+    color: #f6ad00;
+    border-top: 4px solid #f6ad00;
+}.active{
+    color: #f6ad00;
+    border-top: 4px solid #f6ad00;
+    background-color: transparent;
+}.navbar-default .navbar-brand{
+    color: #fff;
+}ul li a{
+    font-size: 14px;
+}thead{
+    background-color: #b3daed;
+}.cd-side-nav{
+    padding-top: 20px;
+    margin-top: 39px;
+}.konten, .cd-main-content .content-wrapper{
+    margin: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+}.modal-header{
+    border-bottom: 5px solid #f93;
+    background-color: #032535;
+    color: #fff;
+}#modal_tahun{
+	margin-top: 5%;
+}#label_tahun_anggaran{
+	color: #999;
+	font-size: 13px;
+}

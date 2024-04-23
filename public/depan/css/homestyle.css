@@ -1,0 +1,489 @@
+body {
+    background: rgb(248, 193, 141) url('../images/background.png');
+    overflow-x: hidden;
+}
+
+.navbar-menu {
+    width: 100%;
+    height: 54px !important;
+    max-height: 54px;
+    padding-left: 5px;
+    position: fixed;
+    background-color: #032535;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid #f0971b 4px;
+    z-index: 1000;
+}
+
+.navbar-menu ul.navbar-nav {
+    background-color: #032535;
+}
+
+.navbar-menu .navbar-header {
+    margin-left: 5%;
+}
+
+.navbar-menu ul.navbar-nav li a {
+    color: #fff;
+    width: 100%;
+}
+
+.navbar-menu ul.navbar-nav li a:hover,
+.navbar-menu ul.navbar-nav li a.active {
+    background-color: #f7882F;
+    color: #fff !important;
+}
+
+.navbar-menu ul.navbar-nav li.dashboard {
+    background-color: #1675B3;
+}
+
+.header {
+    
+    background: #545c5e url('../images/background-header.jpg') no-repeat bottom left;
+    padding-top: 60px;
+    text-align: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    
+}
+
+.footer {
+    position: fixed;
+    background-color: #545c5e;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+}
+
+.navbar-menu ul.navbar-nav li.dropdown li a {
+    color: #000;
+    width: 100%;
+    line-height: 30px;
+}
+
+.navbar-collapse {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    margin-top: -30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+    background-color: #fff;
+    z-index: 500;
+    padding: 10px;
+    border-radius: 2px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px grey;
+}
+
+.login-sistem {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: solid thin #323B49;
+    font-size: 20px;
+    color: #545c5e;
+}
+
+.radius0 {
+    border-radius: 0px;
+}
+
+.login-sistem:focus {
+    border-bottom: solid 2px skyblue;
+}
+
+.label-login {
+    color: #5c5858;
+    text
+}
+
+.content-berita {
+    background-color: #fff;
+}
+
+.home-logo {
+    height: 45px;
+}
+
+.home-logo img {
+    height: 100%;
+}
+
+.home-login {
+    color: #fff;
+    padding: 10px;
+    background-color: #323B49;
+}
+
+.home-login input {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    height: 35px;
+    padding: 0 5px;
+}
+
+.home-login label {
+    letter-spacing: 2px;
+}
+
+.home-conten-berita {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    margin-bottom: 4px;
+    text-align: justify;
+}
+
+.home-conten-berita ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.home-conten-berita ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.home-conten-berita ul li a:hover {
+    color: #fa7304e8;
+    border-bottom: thin solid #ffad14;
+}
+
+.home-conten-berita ul li a {
+    color: rgba(58, 56, 56, 1);
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    border-bottom: thin solid #dad8d5;
+}
+
+.home-conten-berita ul li .tanggal {
+    display: block;
+    color: #EA916D;
+    font-size: 12px;
+}
+
+.typed {
+    height: 50px;
+    color: #fff;
+    margin: 0;
+}
+
+.typed .colored {
+    color: #0f9dda;
+}
+
+.head-login {
+    margin: 0px;
+    border-left: solid 5px #ff8c00;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#img_loading em {
+    font-size: 100px;
+}
+
+.help-block {
+    color: red;
+    font-style: italic;
+}
+
+.content-jadwal div a {
+    height: 100px;
+    max-height: 100px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 2px #326F65;
+    text-decoration: none;
+    color: #0A2A24;
+}
+
+.content-jadwal div a:hover {
+    background-color: #f7882F;
+    color: #fff;
+}
+
+.content-jadwal div a em {
+    font-size: 40px;
+    display: block;
+}
+
+.md-jadwal {
+    width: 24.5%;
+    display: inline-block;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+.content-jadwal-perhari ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-jadwal-perhari ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-jadwal-perhari ul li {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: rgb(231, 114, 0);
+    border-bottom: solid 3px rgb(231, 114, 0);
+    float: left;
+    border-right: solid thin #fff;
+}
+
+.content-jadwal-perhari ul li:hover {
+    border-bottom: solid 3px #3f26bf;
+}
+
+.content-jadwal-perhari ul li.active {
+    background-color: #3f26bf;
+}
+
+.content-jadwal-perhari ul a {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-toggle {
+    color: #fff;
+}
+
+.navbar-toggle:hover {
+    color: #00468c;
+}
+
+.fa-loading {
+    font-size: 20px;
+    color: #1675B3;
+}
+
+.table thead th {
+    background-color: #323B49;
+    color: #fff;
+    font-weight: 400;
+}
+
+.table.table-black tr>td {
+    background-color: #7f7b75;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.table.table-black tr:nth-child(2n)>td {
+    background-color: #6d6b6b;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.table.table-black tr:hover>td {
+    background-color: #5c5858;
+}
+
+.papan-info .banyak-perkuliahan {
+    font-size: 80px;
+    font-weight: bold;
+    display: block;
+    background-color: #232B2D;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 0 #C1BBC3;
+}
+
+.papan-info .info-class-today {
+    width: 25%;
+    box-shadow: 4px 4px 0 #01786F;
+    display: inline-block;
+}
+
+.papan-info .title-info {
+    display: block;
+    background-color: #D9D6CF;
+    color: #232B2D;
+    font-size: 20px;
+    text-align: center;
+}
+
+.table .st-terlaksana em {
+    color: red;
+    display: block;
+    font-size: 30px;
+}
+
+.table .s-terlaksana em {
+    color: blue;
+    display: block;
+    font-size: 30px;
+}
+
+.table.table-livejadwal em {
+    text-shadow: -1px -1px 0 #fff;
+}
+
+.table .s-berlangsung em {
+    color: #00F300;
+    display: block;
+    font-size: 30px;
+    animation: blinker 1s linear infinite;
+}
+
+.table .s-sceduled em {
+    color: #FABB10;
+    display: block;
+    font-size: 30px;
+}
+
+.table .sb-terlaksana em {
+    color: #FABB10;
+    display: block;
+    font-size: 30px;
+}
+
+.hint-dosen {
+    display: block;
+    overflow: hidden;
+}
+
+.hint-dosen ol {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.hint-dosen ol li {
+    display: block;
+    padding: 2px 5px;
+    padding-left: 15px;
+    border-bottom: #000 solid 0.5px;
+}
+
+.hint-dosen em {
+    animation: blinker 1s linear infinite;
+    color: #20FE02;
+    margin-left: -14px;
+}
+
+a {
+    cursor: pointer;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .home-logo {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .home-login {
+        position: fixed;
+        display: none;
+        top: 52px;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+    }
+    .md-jadwal {
+        width: 100%;
+    }
+}
+@media(min-width:1200px) {
+   .judul
+   {
+    display: none !important;
+   }
+  
+}
+@media(max-width:1199px) {
+   .title-large
+   {
+    display: none !important;
+   }
+  
+}
+
+
+width: 100%;
+
+}
+
+}
+idth: 100%;
+
+}
+
+}
+idth: 100%;
+
+}
+
+}
+width: 100%;
+
+}
+
+}
+}
+
+}idth: 100%;
+
+}
+
+}idth: 100%;
+
+}
+
+}idth: 100%;
+
+}
+
+}
+
+}       width: 100%;
+    }
+}
+

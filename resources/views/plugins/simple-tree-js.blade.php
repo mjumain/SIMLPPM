@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{asset('js/simple-tree.min.js')}}"></script>

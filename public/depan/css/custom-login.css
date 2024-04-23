@@ -1,0 +1,91 @@
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: white;
+    background-color: #a00;
+    }
+    .navbar-menu{
+      background-color: #002147;
+      border-bottom: solid #002147 4px;
+    }
+    .judul3{
+      
+      font-weight:bold;
+      color:#00387d; 
+      text-shadow:1px 1px 0px #fff; 
+      letter-spacing: 2px;
+      font-size: 25px;
+    }
+    .judulberita{
+      
+      font-weight:bold;
+      color:#00387d; 
+      text-shadow:1px 1px 0px #fff; 
+      letter-spacing: 1px;
+      font-size: 25px;
+    }
+    .content{
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      background: #fff;
+      opacity: 97%;
+      min-height: 500px;
+      overflow:hidden;
+height:1%;
+    }
+    .btn-login{
+      transition: all .3s ease 0s;
+      background: #a00;
+      color: #fff;
+      font-size: 15px;
+      padding: 7px 20px;
+      border: none;
+      height: auto;
+      width: auto;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+
+      font-weight: 300;
+      letter-spacing: 1px;
+
+    }
+    .btn-login:hover{
+    	color: white;
+    	background-color:#002147; 
+    }
+    .label-login{
+    	color: black;
+    	font-weight: bolder;
+    }
+    .login-sistem{
+    	border-bottom: solid 2px #323b49;
+      padding: 0px;
+    }
+    #form-login{
+    	padding-left: 10px
+    	 
+    }
+    ul.pagination {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+ul.pagination > li {
+  float: left;
+
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.tautan 
+{
+  margin-top: 30px;
+}

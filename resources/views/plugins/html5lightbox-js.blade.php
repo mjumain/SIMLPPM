@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{asset('js/html5lightbox/html5lightbox.js')}}"></script>
