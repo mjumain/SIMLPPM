@@ -97,9 +97,8 @@ class MonitoringDanEvaluasiController extends Controller
     }
     public function index(Request $request)
     {
-      
-      
         $taaktif=Helpers::tahun_anggaran_aktif();
+        // dd($taaktif);
         if ($request->ajax()) {
             $data=$this->dataUsulan($request)->select('usulan.*')->orderBy('usulan.total_nilai_reviewer_hasil','desc');
             $dt=DataTables::of($data)

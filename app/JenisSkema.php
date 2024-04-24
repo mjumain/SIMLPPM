@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 use App\TahunAnggaran;
 class JenisSkema extends Model
 {
-    protected $connection = 'mysql';
     protected $primaryKey='id_jenis_skema';
     protected $guarded=[];
     public $timestamps=false;

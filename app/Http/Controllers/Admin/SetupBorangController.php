@@ -22,6 +22,7 @@ class SetupBorangController extends Controller
    public function index()
    {
       $datas=JenisSkema::all();
+      // dd($datas);
       return view('admin.setup-aplikasi.borang.borang-page',compact('datas'));
    }
    public function inputBorang($tahap,$id_skema)
